@@ -123,4 +123,7 @@
   <data name="ErrMsg_InvalidInputString" xml:space="preserve">
     <value>Input string is invalid.</value>
   </data>
+  <data name="ErrMsg_UnexpectedState" xml:space="preserve">
+    <value>Unexpected state.</value>
+  </data>
 </root>
