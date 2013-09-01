@@ -7,7 +7,7 @@
     public class TrinaryTreeSuites
     {
         /// <summary>
-        /// Test cases for remove method.
+        /// Test cases for <see cref="Remove_TestCase"/> method.
         /// </summary>
         public object[] RemoveTestCaseSource = new object[]
             {
@@ -35,7 +35,7 @@
                     "3"
                 },
 
-                // 2. Create tree with 2 items and remove left
+                // 4. Create tree with 2 items and remove left
                 new object[] 
                 { 
                     new int[] { 2, 1 },
@@ -43,7 +43,7 @@
                     "2"
                 },
 
-                // 3. Create tree with 2 items and remove right
+                // 5. Create tree with 2 items and remove right
                 new object[] 
                 { 
                     new int[] { 2, 3 },
@@ -51,7 +51,7 @@
                     "2"
                 },
 
-                // 4. Create tree with root item and node on middle and remove item on middle
+                // 6. Create tree with root item and node on middle and remove item on middle
                 new object[] 
                 { 
                     new int[] { 2, 1, 3, 2 },
@@ -59,7 +59,7 @@
                     "1-2-3"
                 },
 
-                // 5. Create tree with 3 items and remove root
+                // 7. Create tree with 3 items and remove root
                 new object[] 
                 { 
                     new int[] { 2, 1, 3 },
@@ -67,7 +67,7 @@
                     "1-3"
                 },
 
-                // 6. Remove non-root item with only left node
+                // 8. Remove non-root item with only left node
                 new object[] 
                 { 
                     new int[] { 1, 10, 5 },
@@ -75,7 +75,7 @@
                     "1-5"
                 },
 
-                // 7. Remove non-root item with only right node
+                // 9. Remove non-root item with only right node
                 new object[] 
                 { 
                     new int[] { 1, 10, 20 },
@@ -83,7 +83,7 @@
                     "1-20"
                 },
 
-                // 8. Remove non-root item with middle node
+                // 10. Remove non-root item with middle node
                 new object[] 
                 { 
                     new int[] { 1, 10, 10 },
@@ -91,7 +91,7 @@
                     "1-10"
                 },
 
-                // 9. Remove non-root item with left and right node
+                // 11. Remove non-root item with left and right node
                 new object[] 
                 { 
                     new int[] { 1, 10, 5, 15 },
@@ -99,7 +99,7 @@
                     "1-5-15"
                 },
 
-                // 9. Remove non-root item with left and right node (new node has middle nodes)
+                // 12. Remove non-root item with left and right node (new node has middle nodes)
                 new object[] 
                 { 
                     new int[] { 1, 10, 5, 5, 15 },
