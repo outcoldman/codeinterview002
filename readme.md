@@ -1,4 +1,4 @@
-# Code testing
+# Coding questions
 
 I used Visual Studio 2012 and C# to implement following questions. For unit tests I used [nUnit](http://www.nunit.org/) framework (to launch nUnit tests in Visual Studio you need to have [nUnit test adapter](http://nunit.org/index.php?p=vsTestAdapter&r=2.6.2) or you can use [ReSharper](http://www.jetbrains.com/resharper/) to launch them).
 
